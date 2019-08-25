@@ -1,0 +1,39 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-standard", "tslint-react", "tslint-config-prettier", "tslint-config-airbnb"],
+  "rules": {
+    "member-access": [true, "public"],
+    "ordered-imports": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "object-literal-sort-keys": false,
+    "no-trailing-whitespace": false,
+    "object-literal-shorthand": false,
+    "trailing-comma": false,
+    "quotemark": [true, "single", "jsx-double", "avoid-escape"],
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "max-line-length": false,
+    "ter-arrow-parens": [ true, "as-needed" ],
+    "ter-indent": [ true, 2, { "SwitchCase": 1 } ],
+    "import-name": false,
+    "no-increment-decrement": false,
+    "no-namespace": false,
+    "max-classes-per-file": false,
+    "strict-type-predicates": false
+  },
+  "defaultSeverity": "error",
+  "jsRules": {},
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**"
+    ]
+  }
+}
