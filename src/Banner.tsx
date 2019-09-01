@@ -4,7 +4,8 @@ import {
 } from 'react-native';
 
 export class Banner extends React.PureComponent {
-  public render() {
+
+  render() {
     return (
       <Fragment>
         <View style={{ height: 100, backgroundColor: 'white' }}>

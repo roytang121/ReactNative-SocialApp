@@ -9,9 +9,19 @@
     "ios:debug": "react-native run-ios"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.137",
+    "@types/react-native-vector-icons": "^6.4.1",
+    "@types/react-navigation": "^3.0.8",
+    "@types/react-redux": "^7.1.2",
+    "lodash": "^4.17.15",
     "react": "16.8.6",
     "react-native": "0.60.5",
-    "react-native-navigation": "^2.27.1"
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-navigation": "^2.27.1",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.12.0",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -30,6 +40,7 @@
     "react-test-renderer": "16.8.6",
     "redux": "^4.0.4",
     "redux-actions": "^2.6.5",
+    "redux-devtools-extension": "^2.13.8",
     "redux-saga": "^1.0.5",
     "remote-redux-devtools": "^0.5.16",
     "tslint": "^5.19.0",
