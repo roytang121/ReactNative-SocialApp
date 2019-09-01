@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { ProfilePic, IProps, IEvents } from '../components/ProfilePic';
 import { IRootState } from '../../../reducers/reducers';
-import { isNil, find, get } from 'lodash'
+import { isNil, find, get } from 'lodash';
 import { bindActionCreators } from 'redux';
 import { viewUser } from '../../UserProfile/modules/UserProfile.actions';
 

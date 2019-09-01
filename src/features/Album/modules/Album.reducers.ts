@@ -1,6 +1,6 @@
-import { IAlbumState } from "./Album.types";
+import { IAlbumState } from './Album.types';
 import { handleActions } from 'redux-actions';
-import { Action } from "./Album.actions";
+import { Action } from './Album.actions';
 
 export const initialState: IAlbumState = {
   albums: [],

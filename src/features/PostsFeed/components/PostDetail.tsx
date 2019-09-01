@@ -52,4 +52,4 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     backgroundColor: 'white',
   }
-})
+});

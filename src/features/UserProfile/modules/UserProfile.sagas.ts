@@ -8,6 +8,5 @@ export function* onViewUser(action: Action<number>) {
     yield call(NavigationService.push, 'UserProfile', { userId: action.payload });
   } catch (error) {
     // TODO: notification error
-    console.error(error);
   }
 }

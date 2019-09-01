@@ -22,5 +22,4 @@ const mapDispatchToProps = (dispatch): IPostEvents => ({
   selectPost: bindActionCreators(selectPost, dispatch),
 });
 
-
 export const PostConatiner = connect(mapStateToProps, mapDispatchToProps)(Post);

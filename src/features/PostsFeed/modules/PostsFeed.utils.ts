@@ -2,7 +2,7 @@ import { IPost, IUser, IComment } from './PostsFeed.types';
 import { find, filter } from 'lodash';
 
 export const getUserForPost = (post: IPost, users: IUser[]) => {
-  return find(users, user => user.id === post.userId) as IUser;
+  return find(users, user => user.id === post.userId);
 };
 
 export const getCommentsForPost = (post: IPost, comments: IComment[]) => {

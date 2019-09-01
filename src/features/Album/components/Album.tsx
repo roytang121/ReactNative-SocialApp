@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { IAlbum, IPhoto } from '../modules/Album.types';
 import { View, StyleSheet, Image, TouchableHighlight } from 'react-native';
-import { head } from 'lodash'
+import { head } from 'lodash';
 
 export interface IProps {
   item: IAlbum;

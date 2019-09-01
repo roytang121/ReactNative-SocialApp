@@ -15,7 +15,6 @@ export function* onFetchPosts() {
     yield put(PostsFeedActions.fetchPostsFeedSuccess(posts));
   } catch (error) {
     // TODO: notification error
-    console.error(error);
   }
 }
 
